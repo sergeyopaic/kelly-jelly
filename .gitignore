@@ -23,3 +23,7 @@ export_credentials.cfg
 docs/screenshots*/
 docs/**/*.png
 docs/steam-readiness-2026-11-07/private/
+
+# Curated screenshots used by the public README
+!docs/images/
+!docs/images/*.png
