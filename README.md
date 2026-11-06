@@ -3,171 +3,173 @@
 # Kelly Jelly
 ### The Sweet Wilds
 
-**Разгонись. Протарань. Поглоти. Вырасти.**
+**Charge. Ram. Absorb. Grow.**
 
-Офлайн action roguelite о маленькой желешке, которая становится главным хищником сладкого мира.
+An offline action roguelite about a little jelly growing into the apex predator of a candy world.
 
-**Godot 4.7.2 · Windows x64 · v2.7.5 · English / Русский**
+**Godot 4.7.2 · Windows x64 · v2.7.5 · English / Russian**
 
-![Главное меню Kelly Jelly — сладкий мир, Келли и начало нового забега](docs/images/menu.png)
+**English** · [Русский](README.ru.md)
 
-[Как играть](#как-играть) · [Механики](#механики) · [Скриншоты](#скриншоты) · [Запуск из исходников](#запуск-из-исходников) · [Подготовка к Steam](#подготовка-к-steam)
+![Kelly Jelly main menu, featuring Kelly and the candy world](docs/images/menu.png)
+
+[How to play](#how-to-play) · [Gameplay](#gameplay) · [Screenshots](#screenshots) · [Run from source](#run-from-source) · [Road to Steam](#road-to-steam)
 
 </div>
 
-## Об игре
+## About the game
 
-Kelly Jelly — бесконечные забеги с ручным управлением атакой. Келли заряжает рывок, выбирает направление и врезается во врагов. Сила удара зависит от массы и скорости: маленькую добычу можно поглотить, а к более крупной нужно подготовиться.
+Kelly Jelly features endless runs built around a manually aimed ram attack. Charge a dash, pick a direction, and crash into enemies. Your mass and speed determine the impact: small prey can be absorbed, while larger enemies require preparation.
 
-Опыт открывает улучшения, победы над боссами дают карамельную орбиту, а растущее тело меняет масштаб боя. Ошибка стоит сердца. Потеря последней жизни превращает Келли в лужицу — и начинается новая попытка.
+Collect experience to choose upgrades, defeat bosses to unlock Candy Orbit, and grow large enough to change the scale of the fight. Mistakes cost hearts. Lose your last heart and Kelly melts into a puddle — ready for another attempt.
 
-### Что уже работает
+### Current features
 
-- **Таран массой и скоростью.** Заряд, направленный дэш, короткий толчок и спринт с выносливостью.
-- **Рост без игрового потолка.** Келли увеличивается, камера адаптируется; отдача от поглощения постепенно снижается.
-- **15 повторяемых улучшений.** Урон, движение, защита, сбор предметов, опыт и выносливость.
-- **Пять обычных типов врагов и три типа боссов.** Рывки, залпы, направленный щит и окна уязвимости.
-- **Пассивная Candy Orbit.** Карамельные лепестки вращаются вокруг Келли во время дэша.
-- **Окружение по прогрессу.** После первого босса фон становится мятным; развитие орбиты открывает карамельную и лавандовую палитры.
-- **Скорость игры ×1 / ×2 / ×3.** Ускоряется весь бой вместе с игровым таймером.
-- **Настройки и профиль.** Английский и русский языки, громкость, тряска, вспышки, помощь, перепривязка клавиш и сохранение рекордов.
+- **Mass-and-speed combat.** Charge attacks, directional dashes, a short push, and stamina-based sprinting.
+- **Uncapped growth.** Kelly grows and the camera adapts, with gradually diminishing absorption returns.
+- **15 repeatable upgrades.** Improve impact, movement, defense, pickup range, experience gain, and stamina.
+- **Five regular enemy types and three boss types.** Dashes, volleys, directional shields, and vulnerability windows.
+- **Passive Candy Orbit.** Caramel petals circle Kelly during a dash.
+- **Progression-based scenery.** The first boss victory turns the terrain mint green; later orbit upgrades unlock caramel and lavender palettes.
+- **×1 / ×2 / ×3 game speed.** Speed up combat and the run timer together.
+- **Settings and player profile.** English and Russian, volume controls, screen shake, flashes, assists, keyboard remapping, and saved records.
 
-## Статус проекта
+## Project status
 
-**Текущая версия — v2.7.5.** Игра находится в разработке и подготовке к Steam. Реализован бесконечный режим; законченный маршрут с финальной победой, новые сборки и расширение контента пока относятся к плану развития.
+**Current version: v2.7.5.** The game is in development and being prepared for Steam. Endless mode is playable. A complete route with a final victory, additional build paths, and more content are planned rather than implemented.
 
-В репозитории находятся **исходники, ассеты, тесты и документация**. Готовые EXE и ZIP, старые сборки, кэш редактора и экспортные шаблоны исключены из Git.
+This repository contains **source code, assets, tests, and documentation**. Exported EXE and ZIP files, previous builds, editor caches, and export templates are excluded from Git.
 
-Если у вас уже есть локальная Windows-сборка, откройте:
+If you already have a local Windows build, launch:
 
 ```text
 build/windows-v2.7.5/KellyJelly.exe
 ```
 
-Она работает без установки Godot и без интернета. Для получения игры из этого репозитория используйте инструкцию ниже: клонирование само по себе не скачивает EXE.
+It runs without Godot installed and without an internet connection. To play from this repository, follow the source instructions below: cloning the repository does not download a prebuilt EXE.
 
-## Как играть
+## How to play
 
-Выберите **New run**. Двигайтесь, найдите добычу, зажмите кнопку атаки для заряда и отпустите её для рывка. Не каждый контакт безопасен: размер врага, скорость Келли и состояние защиты имеют значение.
+Select **New run**. Move around, find prey, hold the attack button to charge, then release to dash. Contact is not always safe: enemy mass, Kelly's speed, and enemy defenses all matter.
 
-### Клавиатура и мышь
+### Keyboard and mouse
 
-| Действие | Управление |
+| Action | Controls |
 |---|---|
-| Движение | **WASD** или **стрелки** |
-| Направление атаки | **Мышь** |
-| Заряд → дэш | **Зажать ЛКМ → отпустить** |
-| Короткий толчок | **ПКМ** или **Пробел** |
-| Спринт с выносливостью | **Удерживать Shift** |
-| Скорость игры | **1 → ×1**, **2 → ×2**, **3 → ×3**; также NumPad |
-| Пауза | **Esc** |
+| Move | **WASD** or **arrow keys** |
+| Aim | **Mouse** |
+| Charge → dash | **Hold LMB → release** |
+| Short push | **RMB** or **Space** |
+| Stamina-based sprint | **Hold Shift** |
+| Game speed | **1 → ×1**, **2 → ×2**, **3 → ×3**; also NumPad |
+| Pause | **Esc** |
 
-Клавиши можно изменить в настройках. Цифры 1–3 зарезервированы для скорости игры. Спринт ускоряет обычный бег и не усиливает скорость дэша. Каждый новый забег начинается на ×1; меню, выбор улучшений и анимация поражения идут с обычной скоростью.
+Keyboard controls can be remapped in settings. Keys 1–3 are reserved for game speed. Sprinting speeds up ordinary movement and does not increase dash speed. Each new run starts at ×1; menus, upgrade selection, and the defeat animation use normal speed.
 
-### Геймпад
+### Controller
 
-| Действие | Управление |
+| Action | Controls |
 |---|---|
-| Движение | Левый стик |
-| Направление атаки | Правый стик |
-| Заряд → дэш | **RT → отпустить** |
-| Толчок | **A** |
-| Спринт | **LB** |
-| Пауза | **Start** |
+| Move | Left stick |
+| Aim | Right stick |
+| Charge → dash | **Hold RT → release** |
+| Push | **A** |
+| Sprint | **LB** |
+| Pause | **Start** |
 
-Поддержка геймпада реализована в коде; полный прогон на физических устройствах ещё входит в план проверки. Steam Deck Verified не заявлен.
+Controller support is implemented in code; a complete test pass on physical devices is still planned. Steam Deck Verified status is not claimed.
 
-## Механики
+## Gameplay
 
-### Чистая атака даёт рост
+### Clean attacks reward growth
 
-**Масса × скорость определяют силу удара.** Одной скорости недостаточно, чтобы преодолеть минимальный порог массы. Удачный таран ранит и отбрасывает цель; слабое столкновение может снять сердце даже во время дэша.
+**Mass × speed determines impact strength.** Speed alone cannot bypass the minimum mass threshold. A successful ram damages and knocks back its target; a weak collision can cost a heart even during a dash.
 
-Убитые за атаку враги поглощаются **после её завершения**, если Келли за эту атаку не потеряла HP. Полученный урон отменяет поглощение, но не убийство и не выпавший опыт. Масса при рывке не расходуется.
+Enemies killed during an attack are absorbed **when that attack ends**, provided Kelly lost no HP during it. Taking damage cancels absorption, but keeps the kill and its experience drop. Dashing does not consume mass.
 
-### Опыт и сердца
+### Experience and hearts
 
-- **Голубой опыт** повышает уровень и открывает выбор одного из трёх улучшений.
-- **Сердца** лечат. Базово они выпадают каждые 12 побед и с боссов; улучшения могут повысить частоту.
-- При полном HP сердца остаются на земле.
-- После поражения масса и улучшения сбрасываются; рекорды и настройки сохраняются.
+- **Blue experience** levels Kelly up and offers a choice of three upgrades.
+- **Hearts** restore health. They drop every 12 defeats by default and from bosses; upgrades can make them more frequent.
+- Hearts remain on the ground while Kelly is at full HP.
+- Defeat resets mass and upgrades; records and settings persist.
 
-### Боссы и карамельная орбита
+### Bosses and Candy Orbit
 
-Первый босс появляется на **1:30 игрового времени**. Одновременно активен только один босс. После его поражения есть минимум 45 секунд до следующего.
+The first boss appears at **1:30 of game time**. Only one boss can be active at a time. Defeating one leaves at least 45 seconds before the next can appear.
 
-| Победа над боссом | Награда до конца забега |
+| Boss victory | Reward for the rest of the run |
 |---|---|
-| Первая | Три карамельных лепестка вращаются вокруг Келли во время дэша |
-| Вторая | Орбита становится шире |
-| Третья | Число лепестков увеличивается до пяти |
+| First | Three caramel petals orbit Kelly during dashes |
+| Second | A wider orbit |
+| Third | Five petals instead of three |
 
-Орбита разрубает обычную добычу массой до 20% массы Келли, а более крупным целям наносит ослабленный удар по правилам массы и скорости. Одна цель получает одно попадание орбитой за дэш, отдельно от прямого тарана. Поглощение по-прежнему требует чистой атаки.
+The orbit slices regular prey with up to 20% of Kelly's mass. Larger targets take a reduced hit governed by mass and speed. Each target can take one orbital hit per dash, independently of a direct ram. Absorption still requires a clean attack.
 
-Щит вафли закрывает передний сектор: заходите сзади или дождитесь раскрытия. Броня босса защищает его вне окна уязвимости. Полосы предупреждают о вражеских дэшах; длинные траектории залпов скрыты для читаемости боя.
+The waffle's shield protects its front sector: approach from behind or wait for it to open. Boss armor protects bosses outside their vulnerability windows. Warning lanes show enemy dashes; long projectile-volley lanes are hidden to keep combat readable.
 
-## Скриншоты
+## Screenshots
 
-Ниже — реальные снимки игры из постановочных проверок разных состояний. Часть кадров снята на промежуточных версиях; это иллюстрации текущих механик, а не обещание дополнительного контента.
+These are actual in-game captures from staged checks of different game states. Some were taken during earlier iterations. They illustrate implemented mechanics rather than promise additional content.
 
-### Рост и бой
+### Growth and combat
 
-![Крупная Келли среди сладких противников разных размеров](docs/images/gameplay.png)
+![A large Kelly surrounded by candy enemies of different sizes](docs/images/gameplay.png)
 
-### Карамельная орбита
+### Candy Orbit
 
-![Пять карамельных лепестков на орбите вокруг Келли во время дэша](docs/images/candy-orbit.png)
+![Five caramel petals orbiting Kelly during a dash](docs/images/candy-orbit.png)
 
-### Мир после первой победы над боссом
+### The world after the first boss victory
 
-![Мятный фон с ненавязчивыми узорами, сердцем, опытом и предупреждением вражеского рывка](docs/images/mint-world.png)
+![Mint terrain with subtle patterns, a heart, experience, and an enemy dash warning](docs/images/mint-world.png)
 
-### Улучшения в паузе
+### Upgrades in the pause menu
 
-![Меню паузы с иконками улучшений и третьей ступенью Candy Orbit](docs/images/upgrades.png)
+![The pause menu with upgrade icons and Candy Orbit at rank three](docs/images/upgrades.png)
 
-### Последнее сердце
+### The last heart
 
-![Келли оседает и растекается в лужицу после потери последнего сердца](docs/images/melting.png)
+![Kelly sinking and spreading into a puddle after losing the last heart](docs/images/melting.png)
 
-## Запуск из исходников
+## Run from source
 
-### Что понадобится
+### Requirements
 
-- **Godot 4.7.2 stable**, стандартная версия; .NET не требуется.
-- **Git** для получения исходников.
-- **Python 3** — только для вспомогательных генераторов и загрузки экспортного шаблона.
+- **Godot 4.7.2 stable**, standard edition; .NET is not required.
+- **Git** to clone the source.
+- **Python 3** only for asset preparation tools and the export-template download helper.
 
-Основная целевая платформа — Windows x64. Минимальные системные требования ещё не зафиксированы замерами на слабых ПК. Запуск на других платформах не заявлен как проверенный.
+The primary target is Windows x64. Minimum hardware requirements have not yet been established through low-end PC testing. Other platforms are not claimed as tested.
 
 ```powershell
 git clone https://github.com/sergeyopaic/kelly-jelly.git
 cd kelly-jelly
 ```
 
-Откройте `project.godot` в Godot, дождитесь импорта ассетов и нажмите **F6** для выбранной сцены либо **F5** для запуска проекта. Главная сцена уже настроена:
+Open `project.godot` in Godot, let the assets import, then press **F5** to run the project. **F6** runs the currently selected scene. The project entry point is already configured:
 
 ```text
 scenes/main.tscn → scripts/run_main.gd
 ```
 
-Можно запустить из терминала, если исполняемый файл Godot доступен под именем `godot`:
+If the Godot executable is available as `godot` in your terminal:
 
 ```powershell
 godot --path .
 ```
 
-Все необходимые игровые ассеты сохранены в репозитории. Повторная генерация изображений через PixelLab для обычного запуска не нужна.
+All required game assets are included in the repository. Running the game does not require regenerating images through PixelLab.
 
-### Windows-экспорт
+### Export for Windows
 
-Текущий preset **Windows Desktop** использует официальный шаблон:
+The **Windows Desktop** preset uses the official export template at:
 
 ```text
 tools/templates/windows_release_x86_64.exe
 ```
 
-Он не хранится в Git. Получите шаблон Godot 4.7.2 вручную либо вспомогательным скриптом, которому нужен интернет:
+This binary is not tracked in Git. Obtain the Godot 4.7.2 template manually or use the helper below, which requires internet access:
 
 ```powershell
 python tools/fetch_template.py
@@ -175,70 +177,72 @@ New-Item -ItemType Directory -Force build/windows-v2.7.5
 godot --headless --path . --export-release "Windows Desktop" build/windows-v2.7.5/KellyJelly.exe
 ```
 
-Скрипт загрузки использует HTTP Range; если сервер или сеть не поддерживают такие запросы, скачайте официальный комплект экспортных шаблонов и поместите нужный EXE по указанному пути. Для распространения подготовьте также необходимые лицензии и notices — один экспорт EXE не закрывает весь процесс выпуска.
+The download helper uses HTTP Range requests. If your network or the server does not support them, download the official export-template archive and place the required EXE at the path above. Before distributing a build, include the required licenses and third-party notices; exporting an EXE is only part of the release process.
 
-## Проверки
+## Tests
 
-Из корня проекта:
+Run from the project root:
 
 ```powershell
-# Правила боя, рост, награды, интерфейс и сохранения
+# Combat rules, growth, rewards, interface, and saves
 godot --headless --path . --script tests/run_survivors_tests.gd
 
-# Фактическая скорость времени для ×1 / ×2 / ×3
+# Actual time scaling at ×1 / ×2 / ×3
 godot --headless --path . --script tests/run_speed_tests.gd
 
-# Длительная симуляция боя
+# Extended combat simulation
 godot --headless --path . --script tests/stress_survivors.gd
 ```
 
-Для v2.7.5 зафиксированы **228 успешных детерминированных проверок** и отдельная проверка реального ускорения времени. Тесты используют отдельные профили. Автоматические проверки не заменяют человеческий плейтест, проверку геймпада и измерение производительности на минимальной конфигурации.
+Version v2.7.5 has **228 passing deterministic checks**, plus a separate verification of actual game-speed scaling. Tests use separate profiles. Automated checks do not replace human playtests, physical controller testing, or performance measurements on minimum-spec hardware.
 
-Подробности: [QA v2.7.5](docs/QA_V275.md), [таяние при поражении](docs/QA_V274.md), [орбита](docs/QA_V27.md).
+Details: [v2.7.5 QA](docs/QA_V275.md), [defeat animation](docs/QA_V274.md), and [Candy Orbit](docs/QA_V27.md).
 
-## Устройство проекта
+## Project layout
 
-| Путь | Назначение |
+| Path | Purpose |
 |---|---|
-| `scenes/main.tscn` | Актуальная главная сцена |
-| `scripts/run_main.gd` | Меню, HUD, ввод, выбор улучшений, скорость игры |
-| `scripts/run_arena.gd` | Бой, рост, спавн, награды и состояние забега |
-| `scripts/run_enemy.gd` | Поведение обычных врагов и боссов |
-| `scripts/run_art.gd` | Отрисовка мира, предупреждений и эффектов |
-| `scripts/kelly_emotions.gd` | Анимационные состояния и таяние Келли |
-| `scripts/profile.gd` | Настройки, рекорды и восстановление профиля |
-| `data/run_rules.gd` | Формулы и 15 улучшений |
-| `assets/` | Игровая графика, шрифты, музыка и звуки |
-| `tests/` | Проверки правил и симуляции |
-| `tools/` | Подготовка ассетов, аудио и экспортного шаблона |
-| `docs/` | QA, история решений и план выпуска |
+| `scenes/main.tscn` | Current main scene |
+| `scripts/run_main.gd` | Menus, HUD, input, upgrade selection, and game speed |
+| `scripts/run_arena.gd` | Combat, growth, spawning, rewards, and run state |
+| `scripts/run_enemy.gd` | Regular enemy and boss behavior |
+| `scripts/run_art.gd` | World rendering, warnings, and effects |
+| `scripts/kelly_emotions.gd` | Animation states and Kelly's melting animation |
+| `scripts/profile.gd` | Settings, records, and profile recovery |
+| `data/run_rules.gd` | Formulas and 15 upgrades |
+| `assets/` | Graphics, fonts, music, and sound effects |
+| `tests/` | Rule checks and simulations |
+| `tools/` | Asset, audio, and export-template preparation |
+| `docs/` | QA reports, design history, and the release plan |
 
-Старые скрипты кампании `main.gd` и `arena.gd` сохранены для истории. Они не являются актуальной игрой; при изменении механик ориентируйтесь на файлы `run_*`.
+The older campaign scripts, `main.gd` and `arena.gd`, are retained for historical reference. They are not the current game. Work on the `run_*` files when changing the active gameplay.
 
-### Сохранения
+### Saves and version history
 
-Профиль находится в `user://profile.json`, в системной папке данных приложения Godot. Он хранит настройки и рекорды. **Продолжение незаконченного забега пока не реализовано.**
+The profile lives at `user://profile.json`, in Godot's application data directory. It stores settings and records. **Resuming an unfinished run is not yet implemented.**
 
-История исходников ведётся в Git. Сборки и ZIP хранятся отдельно; исходный снимок v2.7.5 отмечен тегом `v2.7.5-baseline`. Подробнее: [порядок работы с Git](docs/GIT_WORKFLOW.md).
+Source history is tracked in Git. Build binaries and ZIP archives are stored separately. The initial v2.7.5 snapshot is tagged `v2.7.5-baseline`. See the [Git workflow guide, in Russian](docs/GIT_WORKFLOW.md).
 
-## Подготовка к Steam
+## Road to Steam
 
-Следующий этап — проверить игру на внешних игроках, развить разные сборки и законченный маршрут, затем подготовить страницу и релизный процесс. Эти предложения **не являются уже реализованными функциями**.
+The next steps are external playtests, distinct build paths, a complete run structure, and store and release preparation. These are proposals, **not features already implemented**.
 
-- [Подробный аудит и план развития](docs/steam-readiness-2026-11-07/output/STEAM_READINESS_PLAN_RU.md)
-- [Backlog с приоритетами и проверками выпуска](docs/steam-readiness-2026-11-07/output/BACKLOG_AND_RELEASE_CHECKLIST_RU.md)
-- [Презентация PowerPoint — 23 слайда](docs/steam-readiness-2026-11-07/output/Kelly-Jelly-Steam-Plan.pptx)
-- [Офлайн-презентация HTML](docs/steam-readiness-2026-11-07/output/Kelly-Jelly-Steam-Readiness.html) — скачайте файл и откройте в браузере
+The following planning materials are currently in Russian:
 
-Задачи и найденные проблемы можно оставлять в [Issues](https://github.com/sergeyopaic/kelly-jelly/issues). Для воспроизведения ошибки укажите версию сборки, управление, шаги и приложите снимок или видео; если виден seed забега, добавьте его.
+- [Detailed audit and development plan](docs/steam-readiness-2026-11-07/output/STEAM_READINESS_PLAN_RU.md)
+- [Prioritized backlog and release checklist](docs/steam-readiness-2026-11-07/output/BACKLOG_AND_RELEASE_CHECKLIST_RU.md)
+- [PowerPoint presentation — 23 slides](docs/steam-readiness-2026-11-07/output/Kelly-Jelly-Steam-Plan.pptx)
+- [Offline HTML presentation](docs/steam-readiness-2026-11-07/output/Kelly-Jelly-Steam-Readiness.html) — download the file and open it in a browser
 
-## Арт, звук и лицензии
+Report bugs and suggest improvements through [Issues](https://github.com/sergeyopaic/kelly-jelly/issues). Include the build version, input device, reproduction steps, and a screenshot or video. Add the run seed if available.
 
-Графика персонажей и часть окружения созданы с помощью **PixelLab**. Интерфейс, эффекты и обработка ассетов реализованы в проекте; музыка и звуки синтезируются вспомогательными скриптами. Шрифты — **Lilita One, Nunito и Inter**; тексты OFL находятся рядом с файлами в `assets/fonts/`.
+## Art, audio, and licensing
 
-- [Происхождение ассетов](docs/ASSET_CREDITS.md)
-- [Манифест исходной графики](assets/manifest.json)
-- [Манифест анимаций](assets/emotions/manifest.json)
-- [Манифест визуального оформления](assets/visuals/manifest.json)
+Character art and part of the environment were created using **PixelLab**. Interface elements, effects, and asset processing are implemented in the project; music and sound effects are synthesized by the included tools. Fonts are **Lilita One, Nunito, and Inter**, with their OFL texts alongside the font files in `assets/fonts/`.
 
-Godot распространяется по MIT; это не означает, что собственный код игры и её изображения автоматически имеют ту же лицензию. Общая лицензия проекта пока не объявлена. Перед коммерческим выпуском требуется завершить проверку прав на ассеты и комплекта сторонних лицензий.
+- [Asset credits, in Russian](docs/ASSET_CREDITS.md)
+- [Original art manifest](assets/manifest.json)
+- [Animation manifest](assets/emotions/manifest.json)
+- [Visual asset manifest](assets/visuals/manifest.json)
+
+Godot is distributed under the MIT license. The game's own code and artwork do not automatically inherit that license. A project-wide license has not yet been declared. Asset rights and third-party license notices must be reviewed before commercial release.
