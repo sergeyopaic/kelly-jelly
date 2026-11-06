@@ -1,0 +1,19 @@
+{
+  "version": "2.6",
+  "exe": "build\\windows-v2.6\\KellyJelly.exe",
+  "exe_sha256": "ad7f2e3875623f34b60cf364cdc4238ff403bbca4f966f5095a2f723c58e799f",
+  "archive": "build\\KellyJelly-TheSweetWilds-v2.6-Windows.zip",
+  "archive_sha256": "f296c6a053f46a4cf5f325782e9e0f03a77a9db90d260601ad2b2127e4514379",
+  "archive_bytes": 40685589,
+  "crc_check": "passed",
+  "embedded_exe_matches": true,
+  "mechanics_checks": 144,
+  "exported_capture_exits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

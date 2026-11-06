@@ -1,0 +1,5 @@
+{
+	"checks": 205,
+	"failures": [],
+	"scope": "Deterministic invariants and scripted state transitions; not a manual playthrough."
+}

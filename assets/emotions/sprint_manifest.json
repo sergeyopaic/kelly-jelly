@@ -1,0 +1,12 @@
+{
+  "provider": "PixelLab",
+  "animation": "8fcaf88d-fd5d-4d93-921d-5a784e4d3784",
+  "frames": 7,
+  "icons": "c189c479-0242-4ef0-aa9c-76a1998645fc",
+  "upgrade_ids": [
+    12,
+    13,
+    14
+  ],
+  "processing": "Native-resolution frames and 64px icon cells trimmed to alpha bounds."
+}

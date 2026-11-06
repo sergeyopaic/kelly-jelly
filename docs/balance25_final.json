@@ -1,0 +1,468 @@
+{
+	"runs": [
+		{
+			"boss_kills": 4,
+			"checkpoints": [
+				{
+					"hp": 6,
+					"kills": 0,
+					"level": 1,
+					"mass": 30.0,
+					"t": 0.0
+				},
+				{
+					"hp": 7,
+					"kills": 34,
+					"level": 5,
+					"mass": 59.7,
+					"t": 58.9
+				},
+				{
+					"hp": 5,
+					"kills": 63,
+					"level": 7,
+					"mass": 100.7,
+					"t": 117.6
+				},
+				{
+					"hp": 5,
+					"kills": 113,
+					"level": 9,
+					"mass": 191.2,
+					"t": 175.5
+				},
+				{
+					"hp": 7,
+					"kills": 165,
+					"level": 11,
+					"mass": 358.7,
+					"t": 233.8
+				},
+				{
+					"hp": 7,
+					"kills": 212,
+					"level": 12,
+					"mass": 610.9,
+					"t": 291.9
+				},
+				{
+					"hp": 7,
+					"kills": 287,
+					"level": 14,
+					"mass": 1413.4,
+					"t": 349.1
+				},
+				{
+					"hp": 7,
+					"kills": 364,
+					"level": 15,
+					"mass": 3061.4,
+					"t": 406.3
+				},
+				{
+					"hp": 6,
+					"kills": 449,
+					"level": 16,
+					"mass": 6882.8,
+					"t": 462.6
+				},
+				{
+					"hp": 7,
+					"kills": 593,
+					"level": 18,
+					"mass": 20709.1,
+					"t": 518.5
+				},
+				{
+					"hp": 8,
+					"kills": 727,
+					"level": 20,
+					"mass": 61438.1,
+					"t": 574.8
+				}
+			],
+			"damage_taken": 80,
+			"hp": 8,
+			"kills": 797,
+			"level": 20,
+			"mass": 97673.2,
+			"max_hp": 8,
+			"peak_enemies": 61,
+			"seed": 271828,
+			"survived": true,
+			"time": 600.0,
+			"upgrades": {
+				"0": 2,
+				"1": 1,
+				"2": 2,
+				"3": 1,
+				"4": 2,
+				"5": 1,
+				"7": 3,
+				"8": 1,
+				"11": 2,
+				"12": 3,
+				"13": 1
+			}
+		},
+		{
+			"boss_kills": 0,
+			"checkpoints": [
+				{
+					"hp": 6,
+					"kills": 0,
+					"level": 1,
+					"mass": 30.0,
+					"t": 0.0
+				},
+				{
+					"hp": 7,
+					"kills": 38,
+					"level": 6,
+					"mass": 72.9,
+					"t": 58.7
+				}
+			],
+			"damage_taken": 11,
+			"hp": 0,
+			"kills": 61,
+			"level": 7,
+			"mass": 90.6,
+			"max_hp": 8,
+			"peak_enemies": 13,
+			"seed": 1847,
+			"survived": false,
+			"time": 108.8,
+			"upgrades": {
+				"0": 1,
+				"2": 1,
+				"4": 2,
+				"7": 1,
+				"14": 1
+			}
+		},
+		{
+			"boss_kills": 1,
+			"checkpoints": [
+				{
+					"hp": 6,
+					"kills": 0,
+					"level": 1,
+					"mass": 30.0,
+					"t": 0.0
+				},
+				{
+					"hp": 6,
+					"kills": 33,
+					"level": 5,
+					"mass": 78.3,
+					"t": 58.9
+				},
+				{
+					"hp": 5,
+					"kills": 66,
+					"level": 7,
+					"mass": 123.6,
+					"t": 117.6
+				},
+				{
+					"hp": 5,
+					"kills": 104,
+					"level": 9,
+					"mass": 242.0,
+					"t": 175.7
+				}
+			],
+			"damage_taken": 17,
+			"hp": 0,
+			"kills": 127,
+			"level": 10,
+			"mass": 315.5,
+			"max_hp": 6,
+			"peak_enemies": 14,
+			"seed": 90501,
+			"survived": false,
+			"time": 218.6,
+			"upgrades": {
+				"0": 2,
+				"1": 3,
+				"10": 1,
+				"11": 1,
+				"12": 2
+			}
+		},
+		{
+			"boss_kills": 0,
+			"checkpoints": [
+				{
+					"hp": 6,
+					"kills": 0,
+					"level": 1,
+					"mass": 30.0,
+					"t": 0.0
+				},
+				{
+					"hp": 6,
+					"kills": 33,
+					"level": 5,
+					"mass": 63.2,
+					"t": 58.9
+				},
+				{
+					"hp": 3,
+					"kills": 63,
+					"level": 7,
+					"mass": 113.4,
+					"t": 117.6
+				}
+			],
+			"damage_taken": 10,
+			"hp": 0,
+			"kills": 92,
+			"level": 8,
+			"mass": 165.1,
+			"max_hp": 6,
+			"peak_enemies": 16,
+			"seed": 90502,
+			"survived": false,
+			"time": 158.7,
+			"upgrades": {
+				"6": 1,
+				"7": 1,
+				"8": 2,
+				"12": 1,
+				"13": 2
+			}
+		},
+		{
+			"boss_kills": 2,
+			"checkpoints": [
+				{
+					"hp": 6,
+					"kills": 0,
+					"level": 1,
+					"mass": 30.0,
+					"t": 0.0
+				},
+				{
+					"hp": 6,
+					"kills": 36,
+					"level": 6,
+					"mass": 67.8,
+					"t": 58.8
+				},
+				{
+					"hp": 6,
+					"kills": 64,
+					"level": 7,
+					"mass": 113.9,
+					"t": 117.8
+				},
+				{
+					"hp": 6,
+					"kills": 109,
+					"level": 9,
+					"mass": 225.0,
+					"t": 176.1
+				},
+				{
+					"hp": 1,
+					"kills": 151,
+					"level": 11,
+					"mass": 360.6,
+					"t": 234.4
+				},
+				{
+					"hp": 3,
+					"kills": 199,
+					"level": 12,
+					"mass": 716.0,
+					"t": 292.4
+				},
+				{
+					"hp": 2,
+					"kills": 247,
+					"level": 14,
+					"mass": 1436.9,
+					"t": 350.6
+				}
+			],
+			"damage_taken": 30,
+			"hp": 0,
+			"kills": 270,
+			"level": 14,
+			"mass": 2062.7,
+			"max_hp": 6,
+			"peak_enemies": 26,
+			"seed": 90503,
+			"survived": false,
+			"time": 384.5,
+			"upgrades": {
+				"0": 1,
+				"1": 3,
+				"2": 1,
+				"6": 3,
+				"7": 2,
+				"8": 2,
+				"9": 1
+			}
+		},
+		{
+			"boss_kills": 0,
+			"checkpoints": [
+				{
+					"hp": 6,
+					"kills": 0,
+					"level": 1,
+					"mass": 30.0,
+					"t": 0.0
+				},
+				{
+					"hp": 7,
+					"kills": 31,
+					"level": 6,
+					"mass": 64.3,
+					"t": 58.9
+				}
+			],
+			"damage_taken": 13,
+			"hp": 0,
+			"kills": 52,
+			"level": 7,
+			"mass": 88.2,
+			"max_hp": 8,
+			"peak_enemies": 12,
+			"seed": 90504,
+			"survived": false,
+			"time": 106.4,
+			"upgrades": {
+				"1": 1,
+				"2": 2,
+				"4": 2,
+				"9": 1
+			}
+		},
+		{
+			"boss_kills": 3,
+			"checkpoints": [
+				{
+					"hp": 6,
+					"kills": 0,
+					"level": 1,
+					"mass": 30.0,
+					"t": 0.0
+				},
+				{
+					"hp": 6,
+					"kills": 34,
+					"level": 6,
+					"mass": 74.7,
+					"t": 58.8
+				},
+				{
+					"hp": 5,
+					"kills": 65,
+					"level": 8,
+					"mass": 112.5,
+					"t": 117.7
+				},
+				{
+					"hp": 6,
+					"kills": 110,
+					"level": 10,
+					"mass": 241.2,
+					"t": 175.8
+				},
+				{
+					"hp": 6,
+					"kills": 163,
+					"level": 12,
+					"mass": 573.1,
+					"t": 233.9
+				},
+				{
+					"hp": 6,
+					"kills": 223,
+					"level": 13,
+					"mass": 1449.7,
+					"t": 291.7
+				},
+				{
+					"hp": 6,
+					"kills": 309,
+					"level": 15,
+					"mass": 4139.6,
+					"t": 349.0
+				},
+				{
+					"hp": 5,
+					"kills": 393,
+					"level": 16,
+					"mass": 9576.1,
+					"t": 406.0
+				}
+			],
+			"damage_taken": 54,
+			"hp": 0,
+			"kills": 463,
+			"level": 18,
+			"mass": 20140.7,
+			"max_hp": 6,
+			"peak_enemies": 40,
+			"seed": 90505,
+			"survived": false,
+			"time": 445.7,
+			"upgrades": {
+				"0": 1,
+				"3": 1,
+				"6": 1,
+				"8": 4,
+				"9": 1,
+				"10": 1,
+				"11": 4,
+				"12": 2,
+				"13": 1,
+				"14": 1
+			}
+		},
+		{
+			"boss_kills": 0,
+			"checkpoints": [
+				{
+					"hp": 6,
+					"kills": 0,
+					"level": 1,
+					"mass": 30.0,
+					"t": 0.0
+				},
+				{
+					"hp": 3,
+					"kills": 31,
+					"level": 5,
+					"mass": 58.6,
+					"t": 58.7
+				}
+			],
+			"damage_taken": 10,
+			"hp": 0,
+			"kills": 54,
+			"level": 7,
+			"mass": 91.7,
+			"max_hp": 6,
+			"peak_enemies": 11,
+			"seed": 90506,
+			"survived": false,
+			"time": 110.7,
+			"upgrades": {
+				"1": 1,
+				"5": 1,
+				"6": 1,
+				"10": 2,
+				"14": 1
+			}
+		}
+	],
+	"scope": "Fixed seeds, existing combat bot, random first offered upgrade, assist off. No health or damage overrides; not a human playtest.",
+	"seconds_per_seed": 600,
+	"tag": "final"
+}

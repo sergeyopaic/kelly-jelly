@@ -1,0 +1,169 @@
+{
+  "date": "2026-11-04",
+  "generation_cost": 48,
+  "assets": [
+    {
+      "name": "kelly",
+      "file": "assets/art/kelly.png",
+      "source": "PixelLab Pro Flash",
+      "job_id": "34dd9b78-e27b-41c3-9264-819d8314c5eb",
+      "url": "https://api.pixellab.ai/mcp/images/34dd9b78-e27b-41c3-9264-819d8314c5eb/download",
+      "processing": "trim transparent border; procedural in-engine animation",
+      "original_size": [
+        64,
+        64
+      ],
+      "trim_bounds": [
+        15,
+        17,
+        49,
+        51
+      ]
+    },
+    {
+      "name": "gummy",
+      "file": "assets/art/gummy.png",
+      "source": "PixelLab Pro Flash",
+      "job_id": "56233fd3-efe3-4a03-85e6-73687514fa0c",
+      "url": "https://api.pixellab.ai/mcp/images/56233fd3-efe3-4a03-85e6-73687514fa0c/download",
+      "processing": "trim transparent border; procedural in-engine animation",
+      "original_size": [
+        64,
+        64
+      ],
+      "trim_bounds": [
+        16,
+        14,
+        49,
+        52
+      ]
+    },
+    {
+      "name": "fork",
+      "file": "assets/art/fork.png",
+      "source": "PixelLab Pro Flash",
+      "job_id": "267958d3-9240-4903-a2e0-4e01ba9b82a3",
+      "url": "https://api.pixellab.ai/mcp/images/267958d3-9240-4903-a2e0-4e01ba9b82a3/download",
+      "processing": "trim transparent border; procedural in-engine animation",
+      "original_size": [
+        64,
+        64
+      ],
+      "trim_bounds": [
+        18,
+        8,
+        42,
+        56
+      ]
+    },
+    {
+      "name": "waffle",
+      "file": "assets/art/waffle.png",
+      "source": "PixelLab Pro Flash",
+      "job_id": "c386409d-0746-4076-ad52-7864d3533c15",
+      "url": "https://api.pixellab.ai/mcp/images/c386409d-0746-4076-ad52-7864d3533c15/download",
+      "processing": "trim transparent border; procedural in-engine animation",
+      "original_size": [
+        64,
+        64
+      ],
+      "trim_bounds": [
+        14,
+        14,
+        49,
+        54
+      ]
+    },
+    {
+      "name": "pepper",
+      "file": "assets/art/pepper.png",
+      "source": "PixelLab Pro Flash",
+      "job_id": "10897e33-cd65-43b3-a9c9-386580618bd5",
+      "url": "https://api.pixellab.ai/mcp/images/10897e33-cd65-43b3-a9c9-386580618bd5/download",
+      "processing": "trim transparent border; procedural in-engine animation",
+      "original_size": [
+        64,
+        64
+      ],
+      "trim_bounds": [
+        15,
+        15,
+        48,
+        51
+      ]
+    },
+    {
+      "name": "toffee",
+      "file": "assets/art/toffee.png",
+      "source": "PixelLab Pro Flash",
+      "job_id": "23f1c7cc-d29a-4b50-baf7-74c80c4632ac",
+      "url": "https://api.pixellab.ai/mcp/images/23f1c7cc-d29a-4b50-baf7-74c80c4632ac/download",
+      "processing": "trim transparent border; procedural in-engine animation",
+      "original_size": [
+        64,
+        64
+      ],
+      "trim_bounds": [
+        8,
+        19,
+        55,
+        48
+      ]
+    },
+    {
+      "name": "pudding",
+      "file": "assets/art/pudding.png",
+      "source": "PixelLab Pro Flash",
+      "job_id": "6fe7ebdc-0aaa-4449-9b42-88ebc261f627",
+      "url": "https://api.pixellab.ai/mcp/images/6fe7ebdc-0aaa-4449-9b42-88ebc261f627/download",
+      "processing": "trim transparent border; procedural in-engine animation",
+      "original_size": [
+        128,
+        128
+      ],
+      "trim_bounds": [
+        25,
+        25,
+        93,
+        100
+      ]
+    },
+    {
+      "name": "rolling",
+      "file": "assets/art/rolling.png",
+      "source": "PixelLab Pro Flash",
+      "job_id": "4d8aca5e-2aee-44e9-a48e-34e4e8786ff2",
+      "url": "https://api.pixellab.ai/mcp/images/4d8aca5e-2aee-44e9-a48e-34e4e8786ff2/download",
+      "processing": "trim transparent border; procedural in-engine animation",
+      "original_size": [
+        128,
+        128
+      ],
+      "trim_bounds": [
+        14,
+        40,
+        115,
+        88
+      ]
+    },
+    {
+      "name": "whisk",
+      "file": "assets/art/whisk.png",
+      "source": "PixelLab Pro Flash",
+      "job_id": "ddee0256-355f-4e75-a447-b5de4d6d4aa9",
+      "url": "https://api.pixellab.ai/mcp/images/ddee0256-355f-4e75-a447-b5de4d6d4aa9/download",
+      "processing": "trim transparent border; procedural in-engine animation",
+      "original_size": [
+        128,
+        128
+      ],
+      "trim_bounds": [
+        36,
+        23,
+        87,
+        98
+      ]
+    }
+  ],
+  "other_assets": "Original procedural UI/scenery/VFX and synthesized music/SFX in this repository."
+}

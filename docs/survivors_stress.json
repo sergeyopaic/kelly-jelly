@@ -1,0 +1,12 @@
+{
+	"assist": false,
+	"deaths": 1,
+	"kills": 1408,
+	"maximum_enemies": 74,
+	"maximum_items": 63,
+	"maximum_mass": 1140623.32081225,
+	"runs": 2,
+	"scope": "20 simulated minutes of ordinary bot combat, restarting after death; no health or damage cheats. Not a human playthrough or rendering benchmark.",
+	"simulated_seconds": 1200,
+	"wall_seconds": 7.997
+}

@@ -1,0 +1,25 @@
+# Generated files and local editor state
+.godot/
+.codex/
+.agents/
+.vscode/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+# Exports, downloaded engine templates and archived binaries
+build/
+export_templates/
+tools/templates/
+*.zip
+# Secrets and per-user export credentials
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+export_credentials.cfg
+# Reproducible screenshots and private presentation build files
+docs/screenshots*/
+docs/**/*.png
+docs/steam-readiness-2026-11-07/private/

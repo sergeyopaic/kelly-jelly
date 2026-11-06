@@ -1,0 +1,15 @@
+{
+  "version": "2.5 pause icons update",
+  "exe": "build\\windows-v2.5-ui\\KellyJelly.exe",
+  "exe_sha256": "66e1afbb1ce7812fe6ddce416e4ef0ed9832a7a5b4f939c8961eda1cefcb24a9",
+  "archive": "build\\KellyJelly-TheSweetWilds-v2.5-Windows.zip",
+  "archive_sha256": "84c9e7053ffd00f95823388d3c7e71a44065cc7cafcf4589c20669df9505be41",
+  "archive_bytes": 40679602,
+  "crc_check": "passed",
+  "embedded_exe_matches": true,
+  "visual_checks": [
+    "empty",
+    "5 upgrades",
+    "15 upgrades and focused details"
+  ]
+}

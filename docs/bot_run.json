@@ -1,0 +1,50 @@
+[
+	{
+		"chain": 5,
+		"hp": 5,
+		"level": 1,
+		"score": 4400,
+		"time": 27.1833333333331,
+		"won": true
+	},
+	{
+		"chain": 6,
+		"hp": 4,
+		"level": 2,
+		"score": 4730,
+		"time": 50.3166666666651,
+		"won": true
+	},
+	{
+		"chain": 5,
+		"hp": 4,
+		"level": 3,
+		"score": 5260,
+		"time": 40.699999999999,
+		"won": true
+	},
+	{
+		"chain": 4,
+		"hp": 2,
+		"level": 4,
+		"score": 4380,
+		"time": 56.0333333333314,
+		"won": true
+	},
+	{
+		"chain": 9,
+		"hp": 5,
+		"level": 5,
+		"score": 7430,
+		"time": 44.9999999999987,
+		"won": true
+	},
+	{
+		"chain": 6,
+		"hp": 4,
+		"level": 6,
+		"score": 6750,
+		"time": 56.0166666666648,
+		"won": true
+	}
+]

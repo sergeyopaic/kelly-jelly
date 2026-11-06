@@ -1,0 +1,29 @@
+{
+  "provider": "PixelLab",
+  "source_character": "34dd9b78-e27b-41c3-9264-819d8314c5eb",
+  "animations": {
+    "charge": [
+      "d98f21b2-b049-48e2-967f-93483d125e92",
+      7
+    ],
+    "absorb": [
+      "8bff5019-b608-4496-8aa9-94074d80af64",
+      9
+    ],
+    "idle": [
+      "89431919-c89d-4a01-aa0d-2f95d1b5aa0d",
+      9
+    ],
+    "hurt": [
+      "a97a283c-ab28-44ff-8c08-e20905502323",
+      7
+    ],
+    "dash": [
+      "6bbc161f-6a94-40ef-af05-95907ba8642c",
+      7
+    ]
+  },
+  "ground": "4fa1e11f-4cda-46e5-8512-2c172564fe98",
+  "charge_target": "ef86f602-10c5-43d8-a0ec-ec073fc8cb01",
+  "processing": "Per-frame transparent border trim, no resampling. In-engine bottom anchoring retains native pixel sizes and expression changes."
+}

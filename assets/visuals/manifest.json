@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "provider": "PixelLab",
+  "images": {
+    "button": "21350659-e96f-40d9-9e41-2a23dca395f5",
+    "menu": "7985427b-bbaa-4155-b643-8f7ddb2bcfa3",
+    "icons": "2495e323-e60b-4bb0-ad43-61cf79e6077f",
+    "props": "e40b8502-3b98-4c58-876e-af725e7b04dd"
+  },
+  "tilesets": {
+    "raspberry": "a05a1bae-e255-4844-896e-bc9577b51f0d",
+    "caramel": "58298bf0-9277-4873-bbf2-906652199884",
+    "mint": "00bcdf76-b5a8-4b0d-a7fc-aa7bbe1cce25"
+  },
+  "panel": "295c4b85-a2db-4203-a15f-daf88f2c9d5a",
+  "processing": "Transparent border trimming, visually verified inset icon grid / full prop grid extraction, 4x nearest-neighbor UI frame reduction. Terrain regions selected exclusively by metadata bounding_box and NW/NE/SW/SE corners. Originals retained.",
+  "fonts": {
+    "Lilita One": "SIL OFL; Google Fonts",
+    "Nunito": "SIL OFL; Google Fonts"
+  }
+}

@@ -1,0 +1,26 @@
+{
+	"measurements": [
+		{
+			"game_seconds": 0.333333333333333,
+			"passed": true,
+			"ratio": 0.952890067931533,
+			"speed": 1,
+			"wall_seconds": 0.349813
+		},
+		{
+			"game_seconds": 0.683333333333334,
+			"passed": true,
+			"ratio": 1.98249217640892,
+			"speed": 2,
+			"wall_seconds": 0.344684
+		},
+		{
+			"game_seconds": 1.03333333333333,
+			"passed": true,
+			"ratio": 2.99748018278828,
+			"speed": 3,
+			"wall_seconds": 0.344734
+		}
+	],
+	"passed": true
+}
