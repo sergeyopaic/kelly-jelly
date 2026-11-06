@@ -118,4 +118,4 @@ godot --headless --path . --export-release "Windows Desktop" build/windows-v2.6/
 
 Аудит v2.7.5 от 7 ноября 2026: [подробный план](docs/steam-readiness-2026-11-07/output/STEAM_READINESS_PLAN_RU.md), [backlog и проверки выпуска](docs/steam-readiness-2026-11-07/output/BACKLOG_AND_RELEASE_CHECKLIST_RU.md). Офлайн-презентация: `docs/steam-readiness-2026-11-07/output/Kelly-Jelly-Steam-Readiness.html`; PowerPoint: `docs/steam-readiness-2026-11-07/output/Kelly-Jelly-Steam-Plan.pptx`.
 
-Предложения аудита не считаются реализованными функциями или обещанным объёмом релиза. Git хранит исходники и ассеты; сборки, кэш и секреты исключены. Удалённый origin не назначен автоматически.
+Предложения аудита не считаются реализованными функциями или обещанным объёмом релиза. Git хранит исходники и ассеты; сборки, кэш и секреты исключены. Удалённый origin: https://github.com/sergeyopaic/kelly-jelly.
